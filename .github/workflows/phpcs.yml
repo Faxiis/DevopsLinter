@@ -20,5 +20,5 @@ jobs:
           php phpcs.phar --version
 
       - name: Run PHP_CodeSniffer
-        run : |
+        run: |
           php phpcs.phar --standar=PSR2
